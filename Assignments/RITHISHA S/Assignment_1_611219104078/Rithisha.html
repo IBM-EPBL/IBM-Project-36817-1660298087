@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Resume Template</title>
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.js" ></script>
+  <script>
+  function generate() {
+    var element = document.getElementById('element-to-print');
+    html2pdf(element);
+  }
+  </script>
+</head>
+<body>
+    <main id="element-to-print" class="resume-contents">
+        <section class="left-section">
+            <div class="left-section-contents">
+                <div class="profile">
+                    <img class="profile-image" src="img/Rithisha.jpeg" alt="Profile image">
+                    <p class="name">RITHISHA S</p>
+                    <p class="profession">Software Engineer</p>
+					<div class="container">
+					<div class="center">
+					<button class="button button1" onclick="generate()" >Download CV</button>
+					<a href="form.html" class="button button2">Hire me </a>
+					</div>
+					</div></p>
+
+                </div>
+                <div class="contact-info">
+                    <p class="left-title">Contact Info</p>
+                    <ul>
+                        <li><i class="fa fa-phone"></i>+91 9344738305
+                        </li>
+                        <li><i class="fa fa-envelope"></i>2k19cse078@kiot.ac.in
+                        </li>
+                        <li><i class="fa fa-map-marker"></i>Salem,India
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <p class="left-title">Skills</p>
+                    <ul>
+                        <li><p>Java</p></li>
+                        <li><p>c</p></li>
+                        <li><p>HTML5</p></li>
+                        <li><p>CSS3</p></li>
+                        <li><p>SQL</p></li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="right-section">
+            <div class="right-section-contents">
+                <section class="about gap">
+                    <div class="right-title">Profile</div>
+                    <p class="about-me-contents">
+                        Looking for a challenging role in a reputable organization to utilize my technical database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
+                    </p>
+                </section>
+
+                <section class="experience gap">
+                    <div class="right-title">Education</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">secondary school</p>
+                            <p class="exp-time-period">SVM hr.sec school</p>
+							<p class="exp-percentage"></p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">97%</p>
+                            <p class="exp-desc">
+                             2016-2017
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">higher secondary school</p>
+                            <p class="exp-time-period">SRV Girls hr.Secondary School</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">75%</p>
+                            <p class="exp-desc">
+                                2017-2019
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Bachelor of Engineering</p>
+                            <p class="exp-time-period">knowledge Institute Of Technology</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position"	>87%</p>
+                            <p class="exp-desc">
+                                2019-2023
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="experience gap">
+                    <div class="right-title">TRAINING AND RESOURCES</div>
+					
+					 <div class="experience-contents">
+					 
+                        <div>
+                            <p class="exp-company-name">The lighting lamp-Programming on C</p>
+                            <p class="exp-time-period">  NOV 2021 - AUG 2022 </p>
+                        </div>
+                        <div class="experience-contents">
+					 
+                     <div>
+                         <p class="exp-company-name">Shivashri academy-Programming on JAVA</p>
+                         <p class="exp-time-period">  FEB 2022 - APRIL 2022 </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
