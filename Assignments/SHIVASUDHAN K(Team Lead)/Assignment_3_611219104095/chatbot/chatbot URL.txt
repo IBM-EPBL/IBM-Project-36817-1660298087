@@ -1,0 +1,4 @@
+https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fjp-tok.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-6c3503d4-6526-4d1a-ac85-0d0153a0145a%3A%3Aa9e21944-02e2-4eed-95d6-8737e8e29d8b&integrationID=4f446c3e-bd5b-4f45-9a46-437c88aad35b&region=jp-tok&serviceInstanceID=6c3503d4-6526-4d1a-ac85-0d0153a0145a
+
+
+
