@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name:expensediary
+  labels:
+    k8s-app:expensediary
+spec:
+  selector:
+    k8s-app:expensediary
+  type: NodePort
+  ports:
+   - port: 5000
