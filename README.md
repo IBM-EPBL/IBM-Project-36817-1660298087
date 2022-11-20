@@ -1,0 +1,8 @@
+Personal Expense Tracker Application
+Team ID : PNT2022TMID30200
+TEAM MEMBERS:
+RITHISHA S
+SANDHYA M
+SHARAN B
+SHIVASUDHAN K
+DEMO VIDEO LINK - https://youtu.be/GHeMQyZC0T0
